@@ -13,3 +13,32 @@
 ## BUILD OBJECTS ##
 
 *.o
+*.lo
+*.a
+*.la
+
+
+## BUILD SYSTEM ARTIFACTS & GENERATED FILES  ##
+
+**/.deps/
+**/.libs/
+Makefile
+Makefile.inc
+autom4te.cache/
+aclocal.m4
+config.log
+config.status
+src/config.h
+src/xcwcp/moc_application.cc
+src/stamp-h1
+test-driver
+src/libcw/libcw.3
+src/libcw/libcw.pc
+
+
+## BUILD ARTIFACTS ##
+
+src/cw/cw
+src/cwcp/cwcp
+src/cwgen/cwgen
+src/xcwcp/xcwcp
